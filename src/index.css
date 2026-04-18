@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body{
+    font-family: 'Roboto Mono', monospace;;
+}
+.card{
+    @apply grid grid-rows-2 w-full items-center place-items-center p-[12px]
+}

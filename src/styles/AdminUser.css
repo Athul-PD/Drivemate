@@ -1,0 +1,30 @@
+@media(max-width: 580px){
+    .cards_container{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        padding: 15px;
+}
+.card{
+    width: 100%;
+}
+.image{
+    width: 100%;
+    object-fit: cover;
+}
+}
+@media(min-width: 581px) and (max-width: 790px){
+    .cards_container{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+        padding: 25px;
+}
+.card{
+    width: 100%;
+}
+.image{
+    width: 100%;
+    object-fit: cover;
+}
+}
