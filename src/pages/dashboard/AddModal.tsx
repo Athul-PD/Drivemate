@@ -3,7 +3,12 @@ import { addDoc,collection,serverTimestamp } from 'firebase/firestore';
 import { db } from "../../firebase-auth/firebase";
 import { auth } from "../../firebase-auth/firebase";
 
-const AddModal = ({onClose,workspaceId}) => {
+interface AddModalProps {
+  onClose: () => void;
+  workspaceId: string | null;
+}
+
+const AddModal = ({onClose,workspaceId}: AddModalProps) => {
 
     const [title,setTitle] = useState("");
     const [type, setType] = useState("expense");
