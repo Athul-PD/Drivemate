@@ -8,7 +8,7 @@ import { FiCalendar } from "react-icons/fi";
 import { signOut } from "firebase/auth";
 import { auth } from "../../firebase-auth/firebase";
 import { useNavigate } from "react-router-dom";
-import DriveMateLogoT from "../../../public/DriveMateLogo-2.tsx"
+import DriveMateLogoT from "../../../public/DrivemateLogo-2"
 
 interface SidebarProps {
   currentPage: string;
